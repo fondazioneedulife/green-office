@@ -1,5 +1,5 @@
 <h1>
-	<img src="./images/logo.png" style="max-width: 10em">
+	<img src="./images/logo.png" style="max-width: 2em">
 	green_office - developed <a href="https://fondazioneedulife.github.io/green-office/" target="_blank">[IT]</a>
 </h1>
 <img src="./images/prototype.png">
