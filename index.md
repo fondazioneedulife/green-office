@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>
-	ORTO SMART <a href="https://fondazioneedulife.github.io/green-office/" target="_blank">[EN]</a>
+	ORTO SMART <a href="https://edu.v-research.it/internships/green_office.html" target="_blank">[EN]</a>
 </h1>
 <img src="./images/prototype.png">
 
