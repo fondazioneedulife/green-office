@@ -1,45 +1,48 @@
 <h1>
-	<img src="./images/logo.png" style="max-width: 2em">
-	green_office - developed <a href="https://fondazioneedulife.github.io/green-office/" target="_blank">[IT]</a>
+	ORTO SMART <a href="https://edu.v-research.it/internships/green_office.html" target="_blank">[EN]</a>
 </h1>
 <img src="./images/prototype.png">
 
-## System description 
+## A cosa serve un orto smart negli uffici? 
 
-**green_office** is a project thought to save our office from pollution and excessive urbanization. We want our wonderful plants to grow up and be green, even though we don't have green thumb. What is better than an automatic irrigation system to make them be every day greener than the day before?
+L'**orto smart** è un progetto **IoT** pensato per salvare i nostri uffici dall'inquinamento e dall'eccessiva urbanizzazione. Vogliamo che le nostre piante crescano forti e **green**, ma non tutti siamo dotati del "pollice verde", per questo automatizzare i nostri prototipi ci è sembrata la soluzione migliore al nostro problema.
+In fin dei conti cosa c'è di meglio di un sistema d'irrigazione automatizzato per far sì che le piante siano ogni giorno più belle e rigogliose?
 
-We would like to check if they need water when we're on holiday too (we don't want them to die), we need to be able to control our automatic irrigation system remotely.
+Poi c'è il problema delle ferie: se andiamo in vacanza, come facciamo ad assicurarci che le nostre piantine non muoiano? Il sistema d'irrigazione non è solo automatizzato, ma è anche controllabile da remoto e ci fornisce delle statistiche sull'umidità della terra in tempo reale.
 
-But wait, what if someone wants to make our plants die? We'd cry :'(
+Però si sa, per ogni soluzione c'è un problema. Se da un lato l'**orto smart** sembra perfetto, dall'altro qualcuno potrebbe volerlo hackerare per far morire le nostre piante.
+Se dovesse succedere ci potremmo mettere a piangere :'(
 
-Solution: it's necessary to implement a security system in our IoT project! :D
+Fortunatamente abbiamo pensato di implementare un **sistema sicuro** nel nostro progetto **IoT**! :D
 
-## What we developed
-The system collects acquired data (humidity for example) in a DB through NodeRED and Raspberry Pi.
+## Cos'abbiamo sviluppato
+Il sistema **IoT** colleziona dati (per esempio relativi all'umidità) in un **DataBase** sfruttando tecnologie come **NodeRED** e **Raspberry Pi**.
 
-More specifically, 
-1. acquires data from the sensors (e.g. humidity) to check the health status of the plants,
-2. controls (the actuators of) the irrigation system,
-3. allows the user to remotely (and super-securely) control the status of the system, and plants.
+Più nello specifico,
+1. acquisice i dati dai sensori (e.g. umidità) per controllare lo stato di salute delle piante,
+2. controlla gli attutatori del sistema di irrigazione
+3. permette all'utente di controllare da remoto e in modo super sicuro lo stato del sistema e delle piante.
 
-You can find the full repo [here](https://github.com/v-research/green_office).
+## Da chi è stato sviluppato?
+La cosa più incredibile è chi ha sviluppato i 4 prototipi che sono stati creati durante quest'esperienza educativa: dei ragazzi con età compresa tra i 10 e i 14 anni.
 
-## Who developed it
-V-Research in collaboration with Fabschool Verona.
+A guidare i ragazzi ci sono stati dei facilitatori:
+* Marco Dal Corso - [Fabschool Verona](https://fabschool.it/)
+* Giuseppe Giacopuzzi - [Verona FabLab](https://www.veronafablab.it/)
+* Mattia Pacchin - [V-Research](https://www.v-research.it/)
 
-## Story
-In June Marco and Mattia visited a small maker fair based in [311Verona](https://311verona.com/).
-There, some really young boys (8-14 y.o.) presented their great prototypes of an automated irrigation system they developed during a summer camp organised by [Fabschool](https://www.fabschool.it/).
-We were impressed by the passion they put in their projects, furthermore they've been able to learn to use and program MicroBit, humidity sensors and some more hardware in just two weeks! Incredible! :o
+## Com'è nato il progetto? - Storia
+A giugno 2021 Marco e Mattia di [V-Research](https://www.v-research.it/) hanno visitato una piccola **maker fair** che ha avuto luogo al [311Verona](https://311verona.com/).
+Qui, alcuni ragazzi davvero giovani (8-14 anni) hanno presentato i loro fantastici prototipi di sistemi d'irrigazione automatizzati che hanno creato durante un summer camp organizzato dal [Fabschool](https://www.fabschool.it/).
 
-So the challenge: we had an advanced automated irrigation system we wanted to develop and we strongly trust in education, in fact we are teacher too and we are going to lunch an online hacking course on the site [The Practical Men](http://thepracticalmen.com/) and we have a correlate [instagram page](https://www.instagram.com/the_practical_men/) that is collecting really good feedback.
-We jumped at the chance and we proposed to Fabschool to collaborate and make a more advanced version of the irrigation system with the boys!
+Marco e Mattia sono rimasti impressionati per la passione che i piccoli ingegneri avevano messo nei loro progetto, era incredibile come dei ragazzi così giovani fossero riusciti in sole due settimane ad imparare a programmare il **MicroBit** e a capire come farlo funzionare con dei sensori di umidità, dei led e altro hardware! :o
 
-## Secure System Engineering Process
-Coming soon
+Da qui è nata la sfida: V-Research voleva costruire un sistema d'irrigazione automatizzato avanzato, e uno degli asset aziendali su cui punta maggiormente è l'[educazione](https://edu.v-research.it).
 
-## Final notes
+V-Research ha preso al volo l'opportunità di insegnare a dei giovani promettenti e appassionati come sviluppare un orto smart simile a quello che avevano già fatto, solo che questa volta sono state implementate feature aggiuntive, sono stati utilizzati dispositivi più avanzati e difficili da programmare e i ragazzi hanno anche imparato a modellare in 3D una scatola in legno per poi realizzarla grazie al taglio laser. Vera fantascienza!
 
-Please, remember that plants are living things and friend of us.
+## Note finali
 
-For more details please send an email to mattia@v-research.it
+Ricordate che le piante sono esseri viventi e che sono nostre amiche! :D
+
+Per maggiori dettagli scrivete un'email a mattia@v-research.it
